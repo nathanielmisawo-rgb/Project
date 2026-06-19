@@ -1,0 +1,15 @@
+.hero{
+    height: 300px;
+    baackground: black;
+}
+
+.dark-mode{
+    background-color: #121212;
+    color: #ffffff;
+}
+
+@media(max-width: 768px){
+    .hero{
+        height: 200px;
+    }
+}
