@@ -8,9 +8,46 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark p-3">
-        <a href="index.html" class="navbar-brand">SmartFit</a>
-    </nav>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">SmartFit</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+
+                <li class="nav-item"><a class="nav-link active" href="plans.html">Plans</a></li>
+
+                <!-- ✅ THIS IS THE IMPORTANT LINE -->
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="tech.html">Tech</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+
+            </ul>
+
+            <button onclick="toggleDarkMode()" class="btn btn-outline-light ms-3">
+                🌙
+            </button>
+        </div>
+    </div>
+</nav>
     <div class="container mt-5">
         <h1>Our Plans</h1>
         <p>Choose the perfect plan that fits your fitness goals and lifestyle. Whether you're a beginner or a seasoned athlete, we have a plan for you.</p>
