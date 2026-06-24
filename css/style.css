@@ -1,15 +1,81 @@
-.hero{
-    height: 300px;
-    background: black;
+/*  GENERAL  */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-.dark-mode{
+/*  NAVBAR */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/*  SIGNUP BACKGROUND */
+.signup-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Gradient background like modern apps */
+    background: linear-gradient(to right, #0d1b2a, #1b263b);
+}
+
+/*  SIGNUP CARD */
+.signup-card {
+    width: 400px;
+    background: #1b263b;
+    padding: 30px;
+    border-radius: 12px;
+    color: white;
+
+    /* Shadow for depth */
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+/* ✅ HOVER EFFECT */
+.signup-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 40px rgba(0, 123, 255, 0.7);
+}
+
+/*  INPUT FIELDS  */
+.signup-card input {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/*  BUTTON  */
+.signup-card button {
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* LINK  */
+.signup-card a {
+    color: #00c3ff;
+    text-decoration: none;
+}
+
+.signup-card a:hover {
+    text-decoration: underline;
+}
+
+/*  DARK MODE  */
+.dark-mode {
     background-color: #121212;
-    color: #ffffff;
+    color: white;
 }
 
-@media(max-width: 768px){
-    .hero{
-        height: 200px;
+/*  RESPONSIVE  */
+@media (max-width: 768px) {
+    .signup-card {
+        width: 90%;
     }
 }
