@@ -67,11 +67,6 @@ body {
     text-decoration: underline;
 }
 
-/*  DARK MODE  */
-.dark-mode {
-    background-color: #121212;
-    color: white;
-}
 
 /*  RESPONSIVE  */
 @media (max-width: 768px) {
@@ -83,7 +78,7 @@ body {
 .hero {
     height: 400px;
 
-    /* ✅ background image */
+    /*  background image */
    background: url("../images/gymbackground.jpg") no-repeat center center/cover;
 
     display: flex;

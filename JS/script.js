@@ -1,7 +1,3 @@
-function toggleDarkMode() {
-    document.body.classList.toggle('dark-mode');
-}
-
 function validateForm() {
     let name = document.getElementById('name').value;
     if (name ==""){
