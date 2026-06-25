@@ -1,87 +1,50 @@
-/*  GENERAL  */
+/* GENERAL */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
-/*  NAVBAR */
 .navbar {
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
-/*  SIGNUP BACKGROUND */
-.signup-container {
-    height: 100vh;
+/* HERO */
+.hero {
+    height: 90vh;
+    background: url("../images/gymbackground.jpg") center/cover no-repeat;
     display: flex;
-    justify-content: center;
     align-items: center;
-
-    /* Gradient background like modern apps */
-    background: linear-gradient(to right, #0d1b2a, #1b263b);
+    justify-content: center;
+    text-align: center;
 }
 
-/*  SIGNUP CARD */
-.signup-card {
-    width: 400px;
-    background: #1b263b;
-    padding: 30px;
-    border-radius: 12px;
-    color: white;
+/* MAIN SECTION BACKGROUND  */
+.main-section {
+    background: url("../images/background1.jpg") center/cover no-repeat;
+    padding: 100px 0;
+}
 
-    /* Shadow for depth */
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
-
-    text-align: center;
-
+/* BOXES */
+.feature-box,
+.product-box {
+    background: rgba(224, 240, 255, 0.9); /* transparent light blue */
+    border-radius: 20px;
     transition: 0.3s;
 }
 
-/* ✅ HOVER EFFECT */
-.signup-card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 40px rgba(0, 123, 255, 0.7);
+/* HOVER EFFECT */
+.feature-box:hover,
+.product-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
-/*  INPUT FIELDS  */
-.signup-card input {
-    margin-bottom: 15px;
-    border-radius: 8px;
-    padding: 10px;
-}
-
-/*  BUTTON  */
-.signup-card button {
-    border-radius: 8px;
-    font-weight: bold;
-}
-
-/* LINK  */
-.signup-card a {
-    color: #00c3ff;
-    text-decoration: none;
-}
-
-.signup-card a:hover {
-    text-decoration: underline;
-}
-
-
-/*  RESPONSIVE  */
-@media (max-width: 768px) {
-    .signup-card {
-        width: 90%;
-    }
-}
-
-.hero {
-    height: 400px;
-
-    /*  background image */
-   background: url("../images/gymbackground.jpg") no-repeat center center/cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+/*  TEXT ON BACKGROUND */
+.main-section h2,
+.main-section h3,
+.main-section h5,
+.main-section p {
+    color: rgb(245, 10, 10);
 }
