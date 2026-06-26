@@ -14,7 +14,7 @@
 
 <body class="plans-bg">
 
-<!-- ✅ SINGLE NAVBAR (FIXED) -->
+<!-- NAVBAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
         <a class="navbar-brand" href="index.html">SmartFit</a>
@@ -42,63 +42,70 @@
     </div>
 </nav>
 
-<!-- ✅ CONTENT -->
+<!-- ✅ PLANS SECTION -->
 <div class="container mt-5">
-    <h1>Our Plans</h1>
-
-    <p>
-        Choose the perfect plan that fits your fitness goals and lifestyle. 
-        Whether you're a beginner or a seasoned athlete, we have a plan for you.
+    <h1 class="text-center mb-4">Premium Plans</h1>
+    <p class="text-center">
+        Choose the best plan for your fitness journey
     </p>
 
-    <div class="row">
+    <div class="row text-center">
 
         <!-- BASIC -->
         <div class="col-md-4 mb-4">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h5 class="card-title">Basic Plan</h5>
-                    <p class="card-text">
-                        Access to gym facilities during staffed hours, 
-                        basic workout equipment and group classes.
-                    </p>
-                    <a href="signup.html" class="btn btn-primary">Sign Up</a>
-                </div>
+            <div class="plan-box basic p-4">
+                <h4>Basic</h4>
+                <h2>$0</h2>
+                <p>per month</p>
+
+                <ul class="list-unstyled">
+                    <li>Access to gym</li>
+                    <li>Basic equipment</li>
+                    <li>Group classes</li>
+                </ul>
+
+                <a href="signup.html" class="btn btn-light mt-3">Get Plan</a>
             </div>
         </div>
 
         <!-- PREMIUM -->
         <div class="col-md-4 mb-4">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h5 class="card-title">Premium Plan</h5>
-                    <p class="card-text">
-                        Includes all Basic Plan features plus 24/7 access, 
-                        advanced equipment, and personalized training sessions.
-                    </p>
-                    <a href="signup.html" class="btn btn-primary">Sign Up</a>
-                </div>
+            <div class="plan-box premium p-4">
+                <h4>Premium</h4>
+                <h2>$12</h2>
+                <p>per month</p>
+
+                <ul class="list-unstyled">
+                    <li>24/7 access</li>
+                    <li>Advanced equipment</li>
+                    <li>Personal training</li>
+                </ul>
+
+                <a href="signup.html" class="btn btn-light mt-3">Get Plan</a>
             </div>
         </div>
 
         <!-- ELITE -->
         <div class="col-md-4 mb-4">
-            <div class="card h-100">
-                <div class="card-body">
-                    <h5 class="card-title">Elite Plan</h5>
-                    <p class="card-text">
-                        All Premium features plus exclusive classes, 
-                        nutrition counseling, and priority booking.
-                    </p>
-                    <a href="signup.html" class="btn btn-primary">Sign Up</a>
-                </div>
+            <div class="plan-box elite p-4">
+                <h4>Elite</h4>
+                <h2>$39</h2>
+                <p>per month</p>
+
+                <ul class="list-unstyled">
+                    <li>All Premium features</li>
+                    <li>Nutrition support</li>
+                    <li>Priority booking</li>
+                </ul>
+
+                <a href="signup.html" class="btn btn-light mt-3">Get Plan</a>
             </div>
         </div>
 
     </div>
 </div>
 
-<!-- ✅ SCRIPTS -->
+<!-- SCRIPTS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/script.js"></script>
 

@@ -88,9 +88,41 @@ body {
 }
 
 .plans-bg {
-    background: url("../images/plans.jpg") center/cover no-repeat;
+    background: url("../images/background2.jpg") center/cover no-repeat;
 }
 
 .signup-bg {
     background: url("../images/signup.jpg") center/cover no-repeat;
 }
+
+/* PLAN BOXES */
+.plan-box {
+    border-radius: 20px;
+    color: white;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.plan-box li {
+    margin: 10px 0;
+}
+
+/* COLORS */
+.basic {
+    background: #6a5acd;
+}
+
+.premium {
+    background: #4CAF80;
+}
+
+.elite {
+    background: #3498db;
+}
+
+/* HOVER */
+.plan-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
