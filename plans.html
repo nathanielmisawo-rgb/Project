@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SmartFit Tech Gym - Plans</title>
+
+    <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body class="plans-bg">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+<!-- ✅ SINGLE NAVBAR (FIXED) -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
         <a class="navbar-brand" href="index.html">SmartFit</a>
 
@@ -20,104 +27,80 @@
             <ul class="navbar-nav ms-auto">
 
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-
                 <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-
                 <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-
                 <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
-
                 <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-
                 <li class="nav-item"><a class="nav-link active" href="plans.html">Plans</a></li>
-
                 <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-
                 <li class="nav-item"><a class="nav-link" href="tech.html">Tech</a></li>
-
                 <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
-
                 <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
 
             </ul>
-
-          
-        </div>
-    </div>
-   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <a class="navbar-brand" href="index.html">SmartFit</a>
-
-        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div id="nav" class="collapse navbar-collapse">
-            <ul class="navbar-nav ms-auto">
-
-                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-
-                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-
-                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-
-                <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
-
-                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
-
-                <li class="nav-item"><a class="nav-link active" href="plans.html">Plans</a></li>
-
-                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-
-                <li class="nav-item"><a class="nav-link" href="tech.html">Tech</a></li>
-
-                <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
-
-                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-
-            </ul>
-
-          
         </div>
     </div>
 </nav>
-    <div class="container mt-5">
-        <h1>Our Plans</h1>
-        <p>Choose the perfect plan that fits your fitness goals and lifestyle. Whether you're a beginner or a seasoned athlete, we have a plan for you.</p>
-        <div class="row">
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title">Basic Plan</h5>
-                        <p class="card-text">Access to gym facilities during staffed hours, basic workout equipment
-    and group classes.</p>
-                        <a href="signup.html" class="btn btn-primary">Sign Up</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title
-">Premium Plan</h5>
-                        <p class="card-text">Includes all Basic Plan features plus 24/7 gym access, advanced workout equipment, and personalized training sessions.</p>
-                        <a href="signup.html" class="btn btn-primary">Sign Up</a>   
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <div class="card-body">
-                        <h5 class="card-title
-">Elite Plan</h5>
-                        <p class="card-text">All Premium Plan features plus access to exclusive classes, nutrition counseling, and priority booking for personal training sessions.</p>
-                        <a href="signup.html" class="btn btn-primary">Sign Up</a>   
-                    </div>
+
+<!-- ✅ CONTENT -->
+<div class="container mt-5">
+    <h1>Our Plans</h1>
+
+    <p>
+        Choose the perfect plan that fits your fitness goals and lifestyle. 
+        Whether you're a beginner or a seasoned athlete, we have a plan for you.
+    </p>
+
+    <div class="row">
+
+        <!-- BASIC -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Basic Plan</h5>
+                    <p class="card-text">
+                        Access to gym facilities during staffed hours, 
+                        basic workout equipment and group classes.
+                    </p>
+                    <a href="signup.html" class="btn btn-primary">Sign Up</a>
                 </div>
             </div>
         </div>
+
+        <!-- PREMIUM -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Premium Plan</h5>
+                    <p class="card-text">
+                        Includes all Basic Plan features plus 24/7 access, 
+                        advanced equipment, and personalized training sessions.
+                    </p>
+                    <a href="signup.html" class="btn btn-primary">Sign Up</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- ELITE -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Elite Plan</h5>
+                    <p class="card-text">
+                        All Premium features plus exclusive classes, 
+                        nutrition counseling, and priority booking.
+                    </p>
+                    <a href="signup.html" class="btn btn-primary">Sign Up</a>
+                </div>
+            </div>
+        </div>
+
     </div>
-    <script src="js/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</div>
+
+<!-- ✅ SCRIPTS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+
 </body>
-</html> 
+</html>
