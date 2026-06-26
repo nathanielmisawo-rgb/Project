@@ -2,6 +2,11 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+
+    /* ✅ ADDED */
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
 
 .navbar {
@@ -47,4 +52,45 @@ body {
 .main-section h5,
 .main-section p {
     color: rgb(245, 10, 10);
+}
+
+/* ✅ ADDED PAGE BACKGROUNDS */
+.about-bg {
+    background: url("../images/background1.jpg") center/cover no-repeat;
+}
+
+.contact-bg {
+    background: url("../images/contact.jpg") center/cover no-repeat;
+}
+
+.services-bg {
+    background: url("../images/services.jpg") center/cover no-repeat;
+}
+
+.products-bg {
+    background: url("../images/products.jpg") center/cover no-repeat;
+}
+
+.blog-bg {
+    background: url("../images/blog.jpg") center/cover no-repeat;
+}
+
+.faq-bg {
+    background: url("../images/faq.jpg") center/cover no-repeat;
+}
+
+.tech-bg {
+    background: url("../images/tech.jpg") center/cover no-repeat;
+}
+
+.gallery-bg {
+    background: url("../images/gallery.jpg") center/cover no-repeat;
+}
+
+.plans-bg {
+    background: url("../images/plans.jpg") center/cover no-repeat;
+}
+
+.signup-bg {
+    background: url("../images/signup.jpg") center/cover no-repeat;
 }
