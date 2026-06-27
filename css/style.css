@@ -3,7 +3,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 
-    /* ✅ ADDED */
+    /*  ADDED */
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -150,5 +150,20 @@ body {
     color: white;
     max-width: 600px;
     z-index: 2;
+}
+
+/* SERVICES IMAGE SECTION */
+.services-highlight {
+    height: 75vh;
+    background: url("../images/bg-services.jpg") center/cover no-repeat;
+    position: relative;
+}
+
+/* DARK OVERLAY */
+.services-highlight::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
 }
 
