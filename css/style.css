@@ -167,3 +167,79 @@ body {
     background: rgba(0,0,0,0.6);
 }
 
+/*  FAQ ADDITIONS */
+.faq-box {
+    max-width: 800px;
+    margin: auto;
+}
+
+.faq-item h5 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.faq-item p {
+    margin-bottom: 0;
+}
+
+.faq-highlight {
+    height: 70vh;
+    background: url("../images/faq.jpg") center/cover no-repeat;
+    position: relative;
+}
+
+.faq-highlight::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+
+/*  BLOG ADDITIONS */
+.blog-card {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-highlight {
+    height: 70vh;
+    background: url("../images/blog.jpg") center/cover no-repeat;
+    position: relative;
+}
+
+.blog-highlight::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+
+/*  TECH ADDITIONS */
+.tech-card {
+    background: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.tech-card:hover {
+    transform: translateY(-5px);
+}
+
+.tech-highlight {
+    height: 70vh;
+    background: url("../images/tech.jpg") center/cover no-repeat;
+    position: relative;
+}
+
+.tech-highlight::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+}
