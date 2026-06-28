@@ -241,27 +241,50 @@ body {
 }
 
 /* TECH */
-.tech-card {
-    background: white;
-    border-radius: 10px;
-    transition: 0.3s;
-}
-
-.tech-card:hover {
-    transform: translateY(-5px);
-}
-
-.tech-highlight {
-    height: 70vh;
-    background: url("../images/tech.jpg") center/cover no-repeat;
+.tech-full {
+    background: url("../images/background1.jpg") center/cover no-repeat;
+    min-height: 100vh;
     position: relative;
+    padding: 80px 0;
 }
 
-.tech-highlight::before {
+/* DARK OVERLAY */
+.tech-full::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0,0,0,0.7);
+}
+
+/* CONTENT ABOVE OVERLAY */
+.tech-full .container {
+    position: relative;
+    z-index: 2;
+}
+
+/* TECH CARDS (VISIBLE ON DARK) */
+.tech-card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    transition: 0.3s;
+    height: 100%;
+}
+
+.tech-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* TEXT COLOR */
+.tech-full h1,
+.tech-full p {
+    color: black;
+}
+
+/* SMALL TEXT */
+.tech-card small {
+    color: #555;
 }
 
 /*  CONTACT PAGE (NEW DESIGN) */
