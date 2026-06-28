@@ -56,12 +56,12 @@ body {
 /* PAGE BACKGROUNDS */
 .about-bg { background: url("../images/background1.jpg") center/cover no-repeat; }
 .contact-bg { background: #e6f0f5; } 
-.services-bg { background: url("../images/services.jpg") center/cover no-repeat; }
+.services-bg { background: url("../images/background1.jpg") center/cover no-repeat; }
 .products-bg { background: url("../images/products.jpg") center/cover no-repeat; }
-.blog-bg { background: url("../images/blog.jpg") center/cover no-repeat; }
+.blog-bg { background: url("../images/background1.jpg") center/cover no-repeat; }
 .faq-bg { background: url("../images/faq.jpg") center/cover no-repeat; }
-.tech-bg { background: url("../images/tech.jpg") center/cover no-repeat; }
-.gallery-bg { background: url("../images/gallery.jpg") center/cover no-repeat; }
+.tech-bg { background: url("../images/techbackground.jpg") center/cover no-repeat; }
+.gallery-bg { background: url("../images/background1.jpg") center/cover no-repeat; }
 .plans-bg { background: url("../images/background2.jpg") center/cover no-repeat; }
 .signup-bg { background: url("../images/loginsign.jpg") center/cover no-repeat; }
 .login-bg { background: url("../images/loginsign.jpg") center/cover no-repeat; }
