@@ -63,7 +63,8 @@ body {
 .tech-bg { background: url("../images/tech.jpg") center/cover no-repeat; }
 .gallery-bg { background: url("../images/gallery.jpg") center/cover no-repeat; }
 .plans-bg { background: url("../images/background2.jpg") center/cover no-repeat; }
-.signup-bg { background: url("../images/signup.jpg") center/cover no-repeat; }
+.signup-bg { background: url("../images/loginsign.jpg") center/cover no-repeat; }
+.login-bg { background: url("../images/loginsign.jpg") center/cover no-repeat; }
 
 /* PLAN BOX */
 .plan-box {
