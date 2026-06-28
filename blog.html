@@ -43,11 +43,11 @@
 </nav>
 
 <!-- MAIN CONTENT -->
-<div class="container text-center mt-5">
+<div class="container blog-container text-center mt-5">
 
-    <h1 class="mb-3">Our Blog</h1>
+    <h1 class="mb-3 text-white">Our Blog</h1>
 
-    <p class="mb-5">
+    <p class="mb-5 text-white">
         Welcome to our blog! Here you'll find the latest news, tips, and updates from the SmartFit Tech Gym team.
     </p>
 
@@ -56,17 +56,25 @@
         <!-- POST 1 -->
         <div class="col-md-4 mb-4">
             <div class="card blog-card h-100">
-                <img src="images/background1.jpg" class="card-img-top" alt="Blog 1">
+                <img src="images/gymmotivation.jpg" class="card-img-top" alt="Blog 1">
 
                 <div class="card-body">
                     <h5 class="card-title">5 Tips for Staying Motivated in Your Fitness Journey</h5>
+                    <p class="author">By Alex Turner</p>
 
                     <p class="card-text">
-                        Discover effective strategies to keep your fitness goals on track and
-                        maintain your motivation throughout your journey.
+                        Discover effective strategies to keep your fitness goals on track.
                     </p>
 
-                    <a href="#" class="btn btn-primary">Read More</a>
+                    <p class="extra-text">
+                        1. Set realistic goals.<br>
+                        2. Track progress regularly.<br>
+                        3. Stay consistent with your routine.<br>
+                        4. Surround yourself with support.<br>
+                        5. Celebrate small wins along the way.
+                    </p>
+
+                    <button onclick="toggleText(this)" class="btn btn-primary">Read More</button>
                 </div>
             </div>
         </div>
@@ -74,52 +82,62 @@
         <!-- POST 2 -->
         <div class="col-md-4 mb-4">
             <div class="card blog-card h-100">
-                <img src="images/background1.jpg" class="card-img-top" alt="Blog 2">
+                <img src="images/gymbody.jpg" class="card-img-top" alt="Blog 2">
 
                 <div class="card-body">
                     <h5 class="card-title">The Benefits of High-Intensity Interval Training (HIIT)</h5>
+                    <p class="author">By Jordan Miles</p>
 
                     <p class="card-text">
-                        Learn about the advantages of incorporating HIIT into your workout routine
-                        and how it can help you achieve your fitness goals faster.
+                        Learn how HIIT helps you achieve results faster.
                     </p>
 
-                    <a href="#" class="btn btn-primary">Read More</a>
+                    <p class="extra-text">
+                        HIIT alternates intense bursts of activity with rest periods.
+                        It improves endurance, boosts metabolism, and burns fat efficiently.
+                        It’s perfect for people with limited time.
+                    </p>
+
+                    <button onclick="toggleText(this)" class="btn btn-primary">Read More</button>
                 </div>
             </div>
         </div>
 
-        <!--  POST 3 -->
+        <!-- POST 3 -->
         <div class="col-md-4 mb-4">
             <div class="card blog-card h-100">
-                <img src="images/background1.jpg" class="card-img-top" alt="Blog 3">
+                <img src="images/gymnutrition.jpg" class="card-img-top" alt="Blog 3">
 
                 <div class="card-body">
                     <h5 class="card-title">Nutrition Tips for a Healthier Lifestyle</h5>
+                    <p class="author">By Samantha Lee</p>
 
                     <p class="card-text">
-                        Explore essential nutrition tips that can help you maintain a balanced
-                        diet and support your overall health and fitness goals.
+                        Good nutrition supports your fitness goals.
                     </p>
 
-                    <a href="#" class="btn btn-primary">Read More</a>
+                    <p class="extra-text">
+                        Focus on whole foods, stay hydrated, and balance your meals.
+                        Avoid processed foods and create a simple meal plan to stay consistent.
+                    </p>
+
+                    <button onclick="toggleText(this)" class="btn btn-primary">Read More</button>
                 </div>
             </div>
         </div>
 
     </div>
 
-</div>
-
-<!--  FULL WIDTH SECTION -->
-<section class="blog-highlight d-flex align-items-center justify-content-center text-center">
-    <div class="overlay-text">
+    <!-- ✅ STAY INSPIRED NOW PART OF MAIN CONTENT -->
+    <div class="mt-5 text-white pb-5">
         <h2>Stay Inspired</h2>
         <p>
             Discover new tips, workout strategies, and motivation to keep improving your fitness journey.
+            Consistency and discipline will help you reach your goals faster.
         </p>
     </div>
-</section>
+
+</div>
 
 <!-- SCRIPTS -->
 <script src="js/script.js"></script>

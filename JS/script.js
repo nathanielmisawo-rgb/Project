@@ -27,3 +27,15 @@ function openImage(img) {
 function closeImage() {
     document.getElementById("imageModal").style.display = "none";
 }
+
+function toggleText(button) {
+    let extra = button.previousElementSibling;
+
+    if (extra.style.display === "none" || extra.style.display === "") {
+        extra.style.display = "block";
+        button.innerText = "Show Less";
+    } else {
+        extra.style.display = "none";
+        button.innerText = "Read More";
+    }
+}
