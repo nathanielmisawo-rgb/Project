@@ -15,3 +15,15 @@ function filterProducts() {
        item.style.display=item.textContent.toLowerCase().includes(input)?"":"none";
 });
 }
+
+function openImage(img) {
+    let modal = document.getElementById("imageModal");
+    let modalImg = document.getElementById("modalImg");
+
+    modal.style.display = "flex";
+    modalImg.src = img.src;
+}
+
+function closeImage() {
+    document.getElementById("imageModal").style.display = "none";
+}
